@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.page {
+    padding : 50px;
+    border: 5px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50px;
+background: antiquewhite;
+}
+
+a {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+
+}
+
+
+
+
+.display-box {
+    background: salmon;
+    padding : 10px;
+    border: 2px solid green;
+    border-style: dashed;
+    border-radius: 50px;
+    width: 600px;
+}
+
+.row {
+    padding: 15px;
+
+}
+
+input[type=text] {
+    border-radius: 10px;
+    height:  40px;
+width: 500px;
+font-family: 'Courier New', Courier, monospace;
+font-size: large;
+}
+
+button {
+    background-color: burlywood;
+    border-radius: 30px;
+    font-size: larger;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+

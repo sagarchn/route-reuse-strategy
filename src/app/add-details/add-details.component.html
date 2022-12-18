@@ -1,0 +1,25 @@
+<div class="page">
+    <form>
+        <div class="row">
+            <label>User Name : </label> <input type="text" name="uName" [(ngModel)]="details.userName" />
+        </div>
+        <div class="row">
+            <label>Address : </label> <input type="text" name="uName" [(ngModel)]="details.address" />
+        </div>
+        <div class="row">
+            <a class="hyperlink" (click)="goToTermsNcond()">View TnC </a>
+        </div>
+        <div class="row">
+            <button (click)="submit()" name="submit-btn">Submit</button>
+        </div>
+    </form>
+
+    <br/>
+    <br/>
+
+    <div class="display-box">
+
+        Entered details : {{submittedDetails | json}}
+
+    </div>
+</div>
